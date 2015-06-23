@@ -9,7 +9,7 @@ This file modifies your vim configuration to include many useful visuals such as
 
 To install this, just navigate to your root directory and type in ```vim .vimrc```. Now you should be able to copy and paste the contents of this repo's into your local configuration.
 
-#### .bash_profile
+#### .bash_profile file
 
 This file modifies the OSX terminal settings, mainly for color.
 
