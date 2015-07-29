@@ -1,10 +1,17 @@
+### Fancy colors
 PS1="\[\033[34m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
-export PATH=/Library/Frameworks/Python.framework/Versions/3.4/bin
+export PATH=/bin:/usr/bin:/sbin:/usr/sbin
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/BrandonLee/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Mongo
+export PATH="/usr/local/mongodb/bin:$PATH"
+
+### If shit gets fucked up, its probably this line
+export PATH=/Library/Frameworks/Python.framework/Versions/3.4/bin
