@@ -23,5 +23,13 @@ export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 ### Everything else
 export PATH="/usr/local/bin:$PATH"
 
+### Git Autocomplete - Might need to add the script
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 ### If shit gets fucked up, its probably this line
+export PATH="/usr/local/bin:$PATH"
 export PATH=/Library/Frameworks/Python.framework/Versions/3.4/bin
+
+### If things get broken, reset $PATH with "$ export PATH=/bin:/usr/bin:/usr/local/bin"
