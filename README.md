@@ -1,5 +1,5 @@
 # ConfigFiles
-These are just my personal configuration files for vim and OSX terminal.
+These are just my personal configuration files.
 
 ### Getting started
 
