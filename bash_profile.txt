@@ -28,4 +28,10 @@ if [ -f ~/.git-completion.bash ]; then
       . ~/.git-completion.bash
 fi
 
+### Haskell
+export GHC_DOT_APP="/Applications/ghc-7.10.2.app"
+if [ -d "$GHC_DOT_APP" ]; then
+    export PATH="${HOME}/.local/bin:${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
+fi
+
 ### If things get broken, reset $PATH with "$ export PATH=/bin:/usr/bin:/usr/local/bin"
