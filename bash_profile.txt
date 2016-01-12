@@ -1,5 +1,5 @@
 ### Fancy Colors
-PS1="\[\033[34m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33m\]\w\[\033[m\]\$ "
+PS1="\[$(tput setaf 5)\]\t \[$(tput sgr0)\]\[\033[34m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
