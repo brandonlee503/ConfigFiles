@@ -110,6 +110,9 @@ endif
 " Set line numbers
 set number
 
+" Set autocomplete
+inoremap {<CR> {<CR>}<C-o>O
+
 " Ignore case when searching
 set ignorecase
 
