@@ -153,14 +153,14 @@ set foldcolumn=1
 syntax enable 
 
 try
-    "colorscheme desert
-    colorscheme default
+    colorscheme desert
+    "colorscheme default
     "colorscheme Sunburst
     "colorscheme leo
 catch
 endtry
 
-set background=dark
+set background=light
 
 " Set extra options when running in GUI mode
 if has("gui_running")
