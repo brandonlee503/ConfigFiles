@@ -1,29 +1,32 @@
-# ConfigFiles
-These are just my personal configuration files.
+# Configuration
+
+My personal configuration files that may or may not be updated 🙂
 
 ### Getting started
 
 #### .bash_profile file
 
-This file modifies the OSX terminal settings, mainly for color.
+Modifies terminal settings for a few things, but mainly for color.
 
-To install this, just navigate to your root directory (same as above) and type in ```vim .bash_profile```. Now you should be able to copy and paste the contents of this repo into your local configuration.
+To install: copy to `~/.bash_profile`.
 
 #### .vimrc file
 
-This file modifies your vim configuration to include many useful visuals such as highlighted identifiers and line numbers.
+Modifies vim for color and line numbers and such.
 
-To install this, just navigate to your root directory and type in ```vim .vimrc```. Now you should be able to copy and paste the contents of this repo into your local configuration.
+To install: copy to `~/.vimrc`.
 
 #### .zshrc file
 
-This file modifies your zsh configuation to make your command line look ballin.
+Modifies zsh
 
-To install this, just navigate to your root directory and type in ```vim .zshrc```. Now you should be able to copy and paste the contents of this repo into your local configuration.
+To install: copy to `~/.zshrc`.
 
 #### Default.idekeybindings file
 
-This file modifies Xcode's keybindings (Xcode 11.5). To update, copy this file to `~/Library/Developer/Xcode/UserData/KeyBindings`
+This file modifies Xcode's keybindings (Xcode 11.5).
+
+To install: copy to `~/Library/Developer/Xcode/UserData/KeyBindings`.
 
 #### Resources
 
