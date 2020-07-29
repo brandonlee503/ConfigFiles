@@ -21,6 +21,10 @@ This file modifies your zsh configuation to make your command line look ballin.
 
 To install this, just navigate to your root directory and type in ```vim .zshrc```. Now you should be able to copy and paste the contents of this repo into your local configuration.
 
+#### Default.idekeybindings file
+
+This file modifies Xcode's keybindings (Xcode 11.5). To update, copy this file to `~/Library/Developer/Xcode/UserData/KeyBindings`
+
 #### Resources
 
 Here are a few helpful links to get started if the above instructions are too vague or aren't quite working:
