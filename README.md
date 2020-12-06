@@ -18,7 +18,7 @@ To install: copy to `~/.vimrc`.
 
 #### .zshrc file
 
-Modifies zsh
+Modifies zsh. Includes [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugin
 
 To install: copy to `~/.zshrc`.
 
