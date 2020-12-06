@@ -28,6 +28,13 @@ This file modifies Xcode's keybindings (Xcode 11.5).
 
 To install: copy to `~/Library/Developer/Xcode/UserData/KeyBindings`.
 
+
+#### Mac Terminal Settings
+
+* Word navigation: Settings > Profiles > Keyboard > ✅ `Use Option as Meta key`
+* Disable bold: Settings: > Profiles > Text > ❎ `Use bold fonts`
+
+
 #### Resources
 
 Here are a few helpful links to get started if the above instructions are too vague or aren't quite working:
@@ -35,4 +42,5 @@ Here are a few helpful links to get started if the above instructions are too va
 * https://github.com/amix/vimrc
 * https://github.com/robbyrussell/oh-my-zsh
 * https://github.com/bhilburn/powerlevel9k
+* https://medium.com/@jonnyhaynes/jump-forwards-backwards-and-delete-a-word-in-iterm2-on-mac-os-43821511f0a
 
